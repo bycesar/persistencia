@@ -30,6 +30,7 @@ public class AlumnoController {
      private AlumnoRepositorio alumnoRepository;
      
      @GetMapping("/Alumnos")
+     @CrossOrigin
         public List<Alumnos> getAllAlumnoses() {
         return alumnoRepository.findAll();
        }
