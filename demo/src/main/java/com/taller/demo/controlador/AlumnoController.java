@@ -30,7 +30,7 @@ public class AlumnoController {
      private AlumnoRepositorio alumnoRepository;
      
      @GetMapping("/Alumnos")
-        public List<Alumnos> getAllEmpleados() {
+        public List<Alumnos> getAllAlumnoses() {
         return alumnoRepository.findAll();
        }
         

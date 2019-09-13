@@ -14,6 +14,6 @@ import org.springframework.stereotype.Repository;
  * @author CESAR
  */
 @Repository
-public interface AlumnoRepositorio extends JpaRepository<Alumnos, Long>{
+public interface AlumnoRepositorio extends JpaRepository<Alumnos, Integer>{
     
 }
